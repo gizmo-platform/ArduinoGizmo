@@ -1,0 +1,5 @@
+Gizmo KEYWORD1
+begin KEYWORD2
+refresh KEYWORD2
+getAxis KEYWORD2
+getButton KEYWORD2
