@@ -1,13 +1,10 @@
 #include "Gizmo.h"
 
-Gizmo::Gizmo(int sda, int sdc) {
-  _sda = sda;
-  _sdc = sdc;
-}
+Gizmo::Gizmo() {}
 
 void Gizmo::begin() {
-  Wire1.setSDA(_sda);
-  Wire1.setSCL(_sdc);
+  Wire1.setSDA(GIZMO_SYSTEM_SDA);
+  Wire1.setSCL(GIZMO_SYSTEM_SCL);
   Wire1.setClock(400000);
   Wire1.begin();
 }
@@ -19,7 +16,7 @@ void Gizmo::refresh() {
   size_t amountRead = Wire1.requestFrom(GIZMO_ADDR, sizeof(_state));
 
   if (Wire1.available() >= sizeof(_state)) {
-    Wire1.readBytes(reinterpret_cast<uint8_t*>(&state), sizeof(_state));
+    Wire1.readBytes(reinterpret_cast<uint8_t*>(&_state), sizeof(_state));
   }
 }
 
