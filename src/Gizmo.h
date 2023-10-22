@@ -13,25 +13,25 @@ const byte GIZMO_ADDR = 8;
 // in the gizmo-fw definitions, since the size is what sets up the
 // cast during refresh().
 struct CState {
-        byte Axis0;
-        byte Axis1;
-        byte Axis2;
-        byte Axis3;
-        byte Axis4;
-        byte Axis5;
-        byte Axis6;
-        byte Axis7;
+  byte Axis0;
+  byte Axis1;
+  byte Axis2;
+  byte Axis3;
+  byte Axis4;
+  byte Axis5;
 
-        byte Button0;
-        byte Button1;
-        byte Button2;
-        byte Button3;
-        byte Button4;
-        byte Button5;
-        byte Button6;
-        byte Button7;
-        byte Button8;
-        byte Button9;
+  byte Button0;
+  byte Button1;
+  byte Button2;
+  byte Button3;
+  byte Button4;
+  byte Button5;
+  byte Button6;
+  byte Button7;
+  byte Button8;
+  byte Button9;
+  byte Button10;
+  byte Button11;
 };
 
 class Gizmo {
@@ -50,21 +50,21 @@ const byte GIZMO_AXIS_LX = 0;
 const byte GIZMO_AXIS_LY = 1;
 const byte GIZMO_AXIS_RX = 2;
 const byte GIZMO_AXIS_RY = 3;
-const byte GIZMO_AXIS_LT = 4;
-const byte GIZMO_AXIS_RT = 5;
-const byte GIZMO_AXIS_DX = 6;
-const byte GIZMO_AXIS_DY = 7;
+const byte GIZMO_AXIS_DX = 4;
+const byte GIZMO_AXIS_DY = 5;
 
-const byte GIZMO_BUTTON_BACK = 0;
-const byte GIZMO_BUTTON_START = 1;
-const byte GIZMO_BUTTON_LEFTSTICK = 2;
-const byte GIZMO_BUTTON_RIGHTSTICK = 3;
-const byte GIZMO_BUTTON_X = 4;
-const byte GIZMO_BUTTON_Y = 5;
-const byte GIZMO_BUTTON_A = 6;
-const byte GIZMO_BUTTON_B = 7;
-const byte GIZMO_BUTTON_LSHOULDER = 8;
-const byte GIZMO_BUTTON_RSHOULDER = 9;
+const byte GIZMO_BUTTON_X          = 0;
+const byte GIZMO_BUTTON_A          = 1;
+const byte GIZMO_BUTTON_B          = 2;
+const byte GIZMO_BUTTON_Y          = 3;
+const byte GIZMO_BUTTON_LSHOULDER  = 4;
+const byte GIZMO_BUTTON_RSHOULDER  = 5;
+const byte GIZMO_BUTTON_LT         = 6;
+const byte GIZMO_BUTTON_RT         = 7;
+const byte GIZMO_BUTTON_BACK       = 8;
+const byte GIZMO_BUTTON_START      = 9;
+const byte GIZMO_BUTTON_LEFTSTICK  = 10;
+const byte GIZMO_BUTTON_RIGHTSTICK = 11;
 
 const byte GIZMO_MOTOR_1 = 14;
 const byte GIZMO_MOTOR_2 = 15;

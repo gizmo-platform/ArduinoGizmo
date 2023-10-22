@@ -34,10 +34,6 @@ byte Gizmo::getAxis(int id) {
     return _state.Axis4;
   case 5:
     return _state.Axis5;
-  case 6:
-    return _state.Axis6;
-  case 7:
-    return _state.Axis7;
   default:
     return 127;
   }
@@ -65,6 +61,10 @@ bool Gizmo::getButton(int id) {
     return _state.Button8;
   case 9:
     return _state.Button9;
+  case 10:
+    return _state.Button10;
+  case 11:
+    return _state.Button11;
   default:
     return false;
   }
