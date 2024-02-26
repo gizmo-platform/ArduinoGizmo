@@ -46,6 +46,11 @@ void loop() {
   DriveL.write(targetL);
   DriveR.write(targetR);
 
-  // Sleep for 50ms, which means this loop will run at ~20Hz.
-  delay(50);
+  // Sleep for 20ms, which means this loop will run at ~50Hz.  This is
+  // because in this sample code all we do is get control inputs and
+  // map them to motors to drive around, so we don't need to go any
+  // faster.  You should probably remove this in your code so that
+  // your main loop runs faster when polling sensors or animating
+  // lights.
+  delay(20);
 }
