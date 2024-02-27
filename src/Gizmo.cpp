@@ -17,6 +17,25 @@ void Gizmo::refresh() {
 
   if (Wire1.available() >= sizeof(_state)) {
     Wire1.readBytes(reinterpret_cast<uint8_t*>(&_state), sizeof(_state));
+  } else {
+    _state.Axis0 = 127;
+    _state.Axis1 = 127;
+    _state.Axis2 = 127;
+    _state.Axis3 = 127;
+    _state.Axis4 = 127;
+    _state.Axis5 = 127;
+    _state.Button0 = false;
+    _state.Button1 = false;
+    _state.Button2 = false;
+    _state.Button3 = false;
+    _state.Button4 = false;
+    _state.Button5 = false;
+    _state.Button6 = false;
+    _state.Button7 = false;
+    _state.Button8 = false;
+    _state.Button9 = false;
+    _state.Button10 = false;
+    _state.Button11 = false;
   }
 }
 
