@@ -91,6 +91,8 @@ const byte GIZMO_ADC_3 = 28;
 const byte GIZMO_UART_TX = 4;
 const byte GIZMO_UART_RX = 5;
 
+const byte GIZMO_NEOPIXEL = 22;
+
 const byte GIZMO_SYSTEM_SDA = 2;
 const byte GIZMO_SYSTEM_SCL = 3;
 
