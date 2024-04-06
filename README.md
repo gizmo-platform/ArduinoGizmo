@@ -13,15 +13,13 @@ the support packages can be found
 
 ## Installation
 
-To install this library, download the most recent release from the
-releases tab.  What you will download is a ZIP archive of this
-repository from a specific point in time at which the code was tested
-and verified to function.  Expand this archive, which will create a
-folder called "ArduinoGizmo".  This folder needs to be copied to your
-Arduino environment's libraries folder, usually located at
-`~/Arduino/libraries`.  On Windows, this is probably in your "My
-Documents" folder.  After copying the folder into place, close and
-re-open the Arduino GUI.
+Unless you need to install a development version of this library,
+install it using the Arduino IDE's Library Manager available in the
+tools menu.
+
+If you have the Gizmo CLI tool available, both this library and the
+compiler toolchains from the prerequisites section can be installed
+automatically using the `gizmo arduino setup` command.
 
 ## Usage
 
