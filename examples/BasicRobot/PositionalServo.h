@@ -1,5 +1,5 @@
-#ifndef BESTPositionalServo_h
-#define BESTPositionalServo_h
+#ifndef PositionalServo_h
+#define PositionalServo_h
 
 #include "Gizmo.h"
 
@@ -218,4 +218,4 @@ void PositionalServo::update(bool goReverse) {
   }
 }
 
-#endif //BESTPositionalServo_h
+#endif //PositionalServo_h

@@ -1,5 +1,5 @@
-#ifndef BESTStatefulButton_h
-#define BESTStatefulButton_h
+#ifndef StatefulButton_h
+#define StatefulButton_h
 
 #include "Gizmo.h"
 
@@ -90,4 +90,4 @@ void StatefulButton::update() {
     _state = gizmo.getButton(_id);  //using a button, just read its state
   }
 }
-#endif //BESTStatefulButton_h
+#endif //StatefulButton_h

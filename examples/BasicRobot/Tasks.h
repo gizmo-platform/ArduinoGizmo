@@ -1,5 +1,5 @@
-#ifndef BESTTask_h
-#define BESTTask_h
+#ifndef BasicTask_h
+#define BasicTask_h
 
 typedef int (Task)(int);
 typedef void (TaskSetup)();
@@ -117,4 +117,4 @@ void TaskManager::Update() {
  */
 TaskManager Tasks;
 
-#endif //BESTTask_h
+#endif //BasicTask_h
