@@ -70,10 +70,11 @@ const byte GIZMO_MOTOR_1 = 14;
 const byte GIZMO_MOTOR_2 = 15;
 const byte GIZMO_MOTOR_3 = 16;
 const byte GIZMO_MOTOR_4 = 17;
-const byte GIZMO_MOTOR_5 = 18;
-const byte GIZMO_MOTOR_6 = 19;
-const byte GIZMO_MOTOR_7 = 20;
-const byte GIZMO_MOTOR_8 = 21;
+
+const byte GIZMO_SERVO_5 = 18;
+const byte GIZMO_SERVO_6 = 19;
+const byte GIZMO_SERVO_7 = 20;
+const byte GIZMO_SERVO_8 = 21;
 
 const byte GIZMO_GPIO_1 = 6;
 const byte GIZMO_GPIO_2 = 7;
